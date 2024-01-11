@@ -1,0 +1,134 @@
+
+@media screen and (max-width:1426px) {
+    .hero-area{
+       padding:0px 38px 0px 120px;
+        gap: 60px;
+    }
+    /* .hero-picture {
+        width: 90%;
+        height: 90%;
+    } */
+    .hero-btn-area>button {
+        /* margin-right: 10px;
+        padding: 18px 25px 19px 26px; */
+        margin-bottom: 20px;
+    }
+}
+@media screen and  (max-width: 992px){
+    main section{
+        margin: 30px 0;
+    }
+
+    .header-top{
+        padding:25px 115px;
+    }
+    .hero-area{
+        flex-direction: column-reverse;
+        gap: 60px;
+    }
+    .about {
+       
+        padding: 65px 75px;
+        background-color: #FFF8F3;
+    }
+    .info-container{
+        
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 10px;
+        /* justify-content: space-between; */
+        
+    }
+    .what-sec {
+        margin: 40px auto;
+    }
+    .skills-container{
+       
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 20px;  
+          
+    }
+
+    .what-desc{
+        padding:10px 35px;
+        text-align: justify;
+    }
+    .skills {
+        text-align: center;
+    }
+
+    .resume-summary{
+        flex-direction: column;
+        padding-top: 10px;
+        gap: 0px;
+    }
+    .resume-header{text-align: center;}
+
+    .resume-desc-area{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+       
+    }
+    .resume-desc{
+        padding: 20px 10px;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        gap: 65px;
+        padding: 65px 115px
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .header-menu{
+        display: none;
+    }
+    .header-top {
+        padding: 15px 75px;
+    }
+}
+@media screen and (max-width:576px){
+    .header-top {
+        padding: 10px 35px;
+    }
+    .about {
+       
+        padding: 35px 45px;
+        background-color: #FFF8F3;
+    }
+    .info-container{
+        
+        grid-template-columns: repeat(1, 1fr);
+        
+        /* justify-content: space-between; */
+        
+    }
+    .skills-container{
+        grid-template-columns: repeat(1, 1fr);
+          
+    }
+    .resume-summary{
+
+    }
+    .resume-desc-area{
+       
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0px;
+    }
+    .resume-desc{
+        padding: 10px 10px;
+    }
+    .resume-title-info{
+        padding: 5px 0;
+    }
+    .footer{
+
+        gap: 35px;
+        padding: 35px 55px
+    }
+    .btn{
+        font-size: 18px;
+    }
+}
